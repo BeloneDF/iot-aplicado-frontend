@@ -84,7 +84,6 @@ const Modal = ({ isOpen, onClose, children, item }) => {
     try {
       const response = await api.get(`payments/${id}`);
       if (response.data.status === "approved") {
-        alert("Pagamento Aprovado!");
         postConveyor();
         onClose();
         setPix(false);
