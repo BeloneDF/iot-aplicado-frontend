@@ -44,6 +44,7 @@ export const S = {
     
     img {
       width: 220px;
+      height: 220px;
       object-fit: cover;
       border-radius: 10px;
     }
